@@ -9,6 +9,9 @@ class Singleton(type):
     """
     Usage:
         class bar(object, metaclass=Singleton):
+    or
+        class bar(object):
+            __metaclass__ = Singleton
     """
     _instances = {}
 
