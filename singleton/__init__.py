@@ -2,7 +2,7 @@
 """
 Metaclass to easily define singleton classes
 """
-__version__ = '0.1.0'
+__version__ = '0.1.2'
 
 
 class Singleton(type):
